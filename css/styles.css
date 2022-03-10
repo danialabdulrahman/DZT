@@ -1,0 +1,180 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#title {
+  background-image: url(../images/browniebackground2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.download-button {
+  margin-top: 1rem;
+  margin-left: 10rem;
+  margin-bottom: 11rem;
+}
+
+/* FEATURE */
+.feature-box-one {
+  background-image: url(../images/chocolate.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.feature-box-two {
+  background-image: url(../images/technique2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.feature-box-three {
+  background-image: url(../images/indulge2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+p {
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: lighter;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #EDEDED;
+  height: 500px;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+.adam-image {
+  width: 100px;
+}
+
+.sheikh-image {
+  width: 100px;
+}
+
+.rahmatapir-image {
+  width: 100px;
+}
+
+/* Press */
+#press {
+  padding: 7% 15%;
+  background-color: red;
+  height: 200px;
+}
+
+.brand-image {
+  width: 100px;
+}
+
+/* Call To Action */
+#cta {
+  background-color: black;
+  padding: 7% 15%;
+  height: 300px;
+}
+
+.cta-message {
+  color: white;
+}
+
+.download-button-two {
+  margin: 0 100px 0 100px;
+}
+
+/* Footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-image: url(../images/footerbackground2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+i {
+  font-size: 50px;
+  color: white;
+  margin: 0 10px 10px;
+}
+
+p {
+  font-family: 'Montserrat';
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1028px) {
+  h1 {
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .adam-comment{
+    font-size: 1rem;
+  }
+}
